@@ -1,3 +1,8 @@
+.rotate {
+  transition: transform 1s;
+  transform: rotate(360deg);
+}
+
 .flexContainer {
   display: flex;
   justify-content: space-between;
@@ -26,8 +31,4 @@
   .flexContainer > div {
     width: 100%;
   }
-}
-.rotate {
-  transition: transform 1s;
-  transform: rotate(360deg);
 }
